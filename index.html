@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <form id="registrationForm">
+        <header>
+            <div class="main-container">
+                <div class="saylani-logo">
+                    <img src="image-removebg-preview.png" alt="SMIT">
+                </div>
+                <div class="links">
+                    <ul>
+                        <li>
+                            Home
+                        </li>
+                        <li>
+                            About
+                        </li>
+                        <li>
+                            <select>
+                                <option value="Courses">Courses</option>
+                            </select>
+                        </li>
+                        <li>
+                            Campuses
+                        </li>
+                        <li>
+                            Check Resuit
+                        </li>
+                        <button class="enroll-btn">
+                            Enroll Now
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="gradient-line">
+            <div class="hero-section">
+
+                <div class="hero-content">
+
+                    <div class="breadcrumb">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>> Enroll Now</span>
+                    </div>
+
+                    <h1>Registration Form</h1>
+
+                    <p>
+                        Start your journey towards excellence. Fill out the form to apply for our courses
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main-box">
+            <div class="box">
+                <i class="fa-solid fa-clipboard-list"></i>
+                <h1>Registration Form</h1>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-address-card" style="color: rgb(62, 62, 62);"></i>
+                <h1>Download ID Card</h1>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-clipboard-check"></i>
+                <h1>Entry Test Status</h1>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-file-lines"></i>
+                <h1>Result</h1>
+            </div>
+
+        </div>
+
+        <section class="location-course">
+
+            <h2>
+                <i class="fa-solid fa-location-dot"></i>
+                Location & Course Details
+            </h2>
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label>Select Country<span>*</span></label>
+
+                    <select id="country">
+                        <option>Select country</option>
+                        <option>Pakistan</option>
+                        <option>India</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Select class preference<span>*</span></label>
+
+                    <select id="classPreference">
+                        <option>Select class preference</option>
+                        <option>Online</option>
+                        <option>Onsite</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Select Gender<span>*</span></label>
+
+                    <select id="gender">
+                        <option>Select gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Select City<span>*</span></label>
+
+                    <select id="city">
+                        <option>Select City</option>
+                        <option>Karachi</option>
+                        <option> Faisalabad</option>
+                        <option> Peshawar</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Select Course<span>*</span></label>
+
+                    <select id="course">
+                        <option>Select course</option>
+                        <option>Multi Cloud Data Engineering</option>
+                        <option>Mobile App Devolpment With Flutter</option>
+                        <option>UI UX Design With AI</option>
+                        <option>Mobile App Development (React Native)</option>
+                        <option>Video Animation</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Select Campus</label>
+
+                    <select id="campus">
+                        <option>Select course </option>
+                        <option>Zaitoon Ashraf IT Park</option>
+                        <option>Paposh Campus</option>
+                        <option>Gulshan Campus</option>
+                        <option>Aliabad Female Campus</option>
+                        <option>North Karachi Campus</option>
+                    </select>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="personal-information">
+
+            <h2>
+                <i class="fa-regular fa-user"></i>
+                Personal Information
+            </h2>
+
+            <div class="personal-grid">
+
+                <div class="personal-group">
+                    <label>Full Name <span>*</span></label>
+
+                    <div class="input-box">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" id="fullName" placeholder="Enter your full name">
+                    </div>
+                </div>
+
+                <div class="personal-group">
+                    <label>Father Name <span>*</span></label>
+
+                    <div class="input-box">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" id="fatherName" placeholder="Enter father's name">
+                    </div>
+                </div>
+
+                <div class="personal-group">
+                    <label>Date of Birth <span>*</span></label>
+
+                    <div class="input-box">
+                        <i class="fa-regular fa-calendar"></i>
+                        <input type="date" id="dateOfBirth">
+                    </div>
+                </div>
+
+                <div class="personal-group">
+                    <label>Email <span>*</span></label>
+
+                    <div class="input-box">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" id="email" placeholder="your.email@example.com">
+                    </div>
+                </div>
+
+                <div class="personal-group">
+                    <label>Phone <span>*</span></label>
+
+                    <div class="input-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="text" id="phone" placeholder="+923XXXXXXXXX or 03XXXXXXXXX">
+                    </div>
+                </div>
+
+                <div class="personal-group">
+                    <label>Father's Phone <span>*</span></label>
+
+                    <div class="input-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="text" id="fatherPhone" placeholder="+923XXXXXXXXX or 03XXXXXXXXX">
+                    </div>
+                </div>
+
+                <div class="personal-group">
+                    <label>CNIC <span>*</span></label>
+
+                    <div class="input-box">
+                        <i class="fa-regular fa-address-card"></i>
+                        <input type="text" id="cnic" placeholder="1234567890123 (13 digits)">
+                    </div>
+                </div>
+
+                <div class="personal-group">
+                    <label>Father's CNIC <span>*</span></label>
+
+                    <div class="input-box">
+                        <i class="fa-regular fa-address-card"></i>
+                        <input type="text" id="fatherCnic" placeholder="1234567890123 (13 digits)">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="address">
+
+                <label>
+                    Address <span>*</span>
+                    <small>0/20 characters</small>
+                </label>
+
+                <textarea id="address" placeholder="Enter your complete address (minimum 10 characters)"></textarea>
+            </div>
+
+        </section>
+
+        <section class="education-section">
+            <h2>
+                <i class="fa-solid fa-graduation-cap"></i>
+                Education & Technical Details
+            </h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Computer Proficiency <span>*</span></label>
+                    <select id="computerProficiency">
+                        <option value="">Select your computer proficiency</option>
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Advanced</option>
+                        <option>Expert</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Last Qualification <span>*</span></label>
+                    <select id="lastQualification">
+                        <option value="">Last qualification</option>
+                        <option>Matriculation</option>
+                        <option>Intermediate</option>
+                        <option>Undergraduation</option>
+                        <option>Master Degree</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group full-width">
+                <label>Where did you hear about us? <span>*</span></label>
+                <select id="hearAboutUs">
+                    <option value="">Where did you hear about us?</option>
+                    <option>Facebook</option>
+                    <option>Instagram</option>
+                    <option>YouTube</option>
+                    <option>Tiktok</option>
+                    <option>Google Search</option>
+                    <option>WhatsApp</option>
+                </select>
+            </div>
+
+            <div class="laptop-group">
+                <label>Do you have a Laptop? <span>*</span></label>
+
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="laptop" value="yes">
+                        Yes
+                    </label>
+
+                    <label>
+                        <input type="radio" name="laptop" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <section class="upload-section">
+
+            <h2>
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                Upload Picture
+            </h2>
+
+            <div class="upload-box">
+
+                <div class="upload-icon">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+
+                <input type="file" id="picture" accept=".jpg,.jpeg,.png" hidden>
+
+                <button class="upload-btn" type="button" onclick="document.getElementById('picture').click()">
+                    + Upload Picture
+                </button>
+                <div class="upload-info">
+                    <p>· With white or blue background</p>
+                    <p>· File size must be less than 1MB</p>
+                    <p>· File type: jpg, jpeg, png</p>
+                    <p>· Upload your recent passport size picture</p>
+                    <p>· Your Face should be clearly visible without any Glasses</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="terms">
+            <h2>
+                <i class="fa-solid fa-shield-halved"></i>
+                Terms and Conditions
+            </h2>
+
+            <div class="terms-box">
+
+                <label>
+                    <input type="checkbox">
+                    <span>
+                        I hereby solemnly declare that all information provided in this application is true and accurate
+                        to
+                        the best of my knowledge. Furthermore, I agree to abide by all current and future rules,
+                        regulations, and policies established by SMIT.
+                    </span>
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    <span>
+                        I accept the responsibility to maintain good conduct throughout the program and commit to
+                        focusing
+                        solely on learning. I will not engage in any political, unethical, or unrelated activities
+                        during my
+                        enrollment. Any violation may result in immediate cancellation of my admission.
+                    </span>
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    <span>
+                        Upon completion of the course, I agree to successfully complete any project assigned by SMIT as
+                        part
+                        of the program requirements.
+                    </span>
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    <span>
+                        Female students are required to wear an abaya or hijab while attending classes.
+                    </span>
+                </label>
+
+                <div class="terms-line"></div>
+
+                <p>
+                    By submitting this form, you agree to our
+                    <a href="#">Privacy Policy</a>
+                    and
+                    <a href="#">Terms of Service</a>.
+                </p>
+
+            </div>
+        </section>
+
+        <div class="important-notice">
+            <div class="notice-icon">
+                <i class="fa-solid fa-circle-exclamation"></i>
+            </div>
+
+            <div class="notice-content">
+                <h3>Important Notice:</h3>
+                <p>
+                    Please ensure all information provided is accurate.
+                    Incomplete or false information may result in rejection of your application.
+                </p>
+            </div>
+        </div>
+
+        <div class="robot-check">
+
+            <div class="robot-left">
+                <input type="checkbox" id="robot">
+                <label for="robot">I'm not a robot</label>
+            </div>
+
+            <div class="recaptcha">
+                <div class="recaptcha-icon">
+                    ↻
+                </div>
+                <span>reCAPTCHA</span>
+            </div>
+
+        </div>
+
+        <button type="submit" class="submit-btn">
+            <i class="fa-regular fa-file-lines" style="color: white;"></i>
+            <span>Submit Registration</span>
+        </button>
+
+        <footer class="footer">
+
+            <div class="footer-container">
+
+                <div class="footer-about">
+
+                    <div class="footer-logos">
+                        <img src="https://www.saylanimit.com/_next/image?url=%2Fassets%2Ftransparent_logo.png&w=256&q=75"
+                            alt="SMIT">
+                        <img src="https://www.saylanimit.com/_next/image?url=%2Fassets%2Fsaylani_logo.png&w=256&q=75"
+                            alt="Saylani">
+                    </div>
+
+                    <p class="footer-description">
+                        Empowering Pakistan's youth with
+                        world-class IT education and training
+                        programs to build a brighter digital
+                        future.
+                    </p>
+
+                    <div class="contact-info">
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i>
+                            A-25, Bahadurabad Chowrangi, Karachi,<br>
+                            Pakistan
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-phone"></i>
+                            +92 21 111 729 526
+                        </p>
+
+                        <p>
+                            <i class="fa-regular fa-envelope"></i>
+                            saylani.mass@gmail.com
+                        </p>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: white;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: white;"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in" style="color: white;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" style="color: white;"
+                                style="color: white;"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube" style="color: white;"></i></a>
+                    </div>
+
+                    <div class="google-play">
+                        <button>
+                            <img src="saylani-btn.png">
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+
+                    <div class="heading-line">
+                        <span></span>
+                    </div>
+
+                    <a href="#">Home</a>
+                    <a href="#">Chat Us</a>
+                    <a href="#">Enroll Now</a>
+                    <a href="#">Download ID Card</a>
+                    <a href="#">Entry Test Status</a>
+                    <a href="#">Check Results</a>
+                </div>
+
+
+                <div class="footer-column">
+                    <h3>Our Courses</h3>
+
+                    <div class="heading-line">
+                        <span></span>
+                    </div>
+
+                    <a href="#">Web Development</a>
+                    <a href="#">Agentic AI</a>
+                    <a href="#">AI &amp; Data Science</a>
+                    <a href="#">Graphic Design</a>
+                    <a href="#">3D Animation</a>
+                </div>
+
+
+                <div class="footer-column">
+                    <h3>Resources</h3>
+
+                    <div class="heading-line">
+                        <span></span>
+                    </div>
+
+                    <a href="#">Courses</a>
+                    <a href="#">Campuses</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2013 - 2026
+                    <strong>Saylani Mass IT Training.</strong>
+                    All rights reserved.
+                </p>
+
+                <div class="bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+
+            </div>
+
+        </footer>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
